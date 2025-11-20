@@ -724,12 +724,13 @@
 <section id="home" class="active">
     <div class="hero">
         <iframe 
-            src="https://www.youtube.com/embed/lpo9BSnl3K4?autoplay=1&mute=1&loop=1&playlist=lpo9BSnl3K4&controls=0&modestbranding=1&rel=0"
-            frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-            style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -1;">
-        </iframe>
+    src="https://www.youtube.com/embed/wugSLZduQGg?autoplay=1&mute=1&loop=1&playlist=wugSLZduQGg&controls=0&modestbranding=1&rel=0"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    allowfullscreen
+    style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: -1;">
+</iframe>
+
 
         <button onclick="playVideo()" 
                 style="position:absolute; top:10px; left:10px; z-index:10; padding:10px 20px; font-size:16px; cursor:pointer;">
@@ -927,7 +928,7 @@
 				const iframe = sec.querySelector("iframe");
 				if(iframe) {
 					// Videoyu sessize al ve autoplay kapat
-					iframe.src = "https://www.youtube.com/embed/lpo9BSnl3K4?autoplay=0&mute=1&loop=1&playlist=lpo9BSnl3K4&controls=0&modestbranding=1&rel=0";
+					iframe.src = "https://www.youtube.com/embed/wugSLZduQGg?autoplay=0&mute=1&loop=1&playlist=wugSLZduQGg&controls=0&modestbranding=1&rel=0";
 
 				}
 			}
@@ -962,7 +963,8 @@
 
 		// Sadece home aktif ve iframe varsa çalış
 		if(homeSection.classList.contains("active") && iframe) {
-			iframe.src = "https://www.youtube.com/embed/lpo9BSnl3K4?autoplay=1&rel=0&controls=1";
+			iframe.src = "https://www.youtube.com/embed/wugSLZduQGg?autoplay=1&mute=0&loop=1&playlist=wugSLZduQGg&rel=0&controls=1&modestbranding=1";
+
 
 		}
 	}
@@ -979,4 +981,5 @@
 
 	</body>
 	</html>
+
 
